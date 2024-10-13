@@ -1,0 +1,166 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Nunito;
+}
+    .logo{
+        display:flex;
+    }
+    body {
+        font-family:Nunito;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:60px;
+        padding: 10px 20px;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .nav-links a:hover {
+        color: #007BFF;
+    }
+
+    .right-section {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .search-bar {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 200px;
+    }
+
+    .account-icon {
+        width: 35px;
+        height: auto;
+        cursor: pointer;
+    }
+    .search-container {
+        width: 300px;
+    }
+
+    .search-input {
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        transition: border-color 0.2s ;
+    }
+
+    .search-input:focus {
+        border-color: #333;
+    }
+.icon{
+    width:30px;
+}
+
+.hero-section {
+    height: 400px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.hero-section h1 {
+    color: white;
+    font-size: 4em;
+    position:relative;
+    top:-600px ;left:550px;
+    font-family: Nunito;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.7);
+}
+
+.continents-menu {
+  
+    display: block;
+    margin-top:600px;
+   
+    margin-left:30%;
+    padding: 20px 0;
+}
+
+.continents-list {
+    display: flex;
+    list-style-type: none;
+    gap: 30px;
+}
+
+.continents-list li {
+    text-align: center;
+}
+
+.continents-list a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+    display: block;
+    text-align: center;
+}
+
+.continents-list img {
+    width: 100px;
+    height: 100px;
+    object-fit: contain;
+    margin-bottom: 10px;
+    transition: transform 0.3s ease;
+}
+
+.continents-list img:hover {
+    transform: scale(1.1);
+}
+
+.continents-list span {
+    display: block;
+    font-size: 14px;
+}
+.bada{
+    width:100%;
+    height:80%;
+    position:static;
+}
+.add{
+    width:62px;
+    margin-right:8px;
+}
+
