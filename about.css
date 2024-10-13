@@ -1,0 +1,124 @@
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:Nunito;
+}
+    .logo{
+        display:flex;
+    }
+    body {
+        font-family:Nunito;
+    }
+
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height:60px;
+        padding: 10px 20px;
+        background-color: #f8f8f8;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .logo img {
+        width: 100px;
+        height: auto;
+    }
+
+    nav {
+        flex-grow: 1;
+        display: flex;
+        justify-content: center;
+    }
+
+    .nav-links {
+        display: flex;
+        list-style: none;
+        gap: 20px;
+    }
+
+    .nav-links li {
+        display: inline;
+    }
+
+    .nav-links a {
+        text-decoration: none;
+        color: #333;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .nav-links a:hover {
+        color: #007BFF;
+    }
+
+    .right-section {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .search-bar {
+        padding: 5px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        width: 200px;
+    }
+
+    .account-icon {
+        width: 35px;
+        height: auto;
+        cursor: pointer;
+    }
+    .search-container {
+        width: 300px;
+    }
+
+    .search-input {
+        width: 300px;
+        padding: 4px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 8px;
+        outline: none;
+        transition: border-color 0.2s ;
+    }
+
+    .search-input:focus {
+        border-color: #333;
+    }
+.icon{
+    width:30px;
+}
+
+
+.add{
+    width:62px;
+    margin-right:8px;
+}
+
+
+.background-image {
+      
+     width: 100%;
+      height: 100%;
+      padding-left: -800px;
+      
+    }
+.background{
+    position: static;
+      
+}
+
+.about{
+    position: relative;
+    top: -700px;
+    left: 20px;
+}
+.about-text{
+    margin-right: 650px;
+
+}
